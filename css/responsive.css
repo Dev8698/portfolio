@@ -1,0 +1,208 @@
+/* 
+ * Dev Keshav Hire - Portfolio Responsive Style Sheet
+ * Target Breakpoints: 576px, 768px, 992px, 1200px
+ */
+
+/* ==========================================================================
+   Breakpoint: Large Desktop & Down (< 1200px)
+   ========================================================================== */
+@media (max-width: 1199.98px) {
+  .hero-title {
+    font-size: 48px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+  }
+  
+  .py-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* ==========================================================================
+   Breakpoint: Tablet / Medium Screens & Down (< 992px)
+   ========================================================================== */
+@media (max-width: 991.98px) {
+  body {
+    font-size: 17px;
+  }
+  
+  .hero-title {
+    font-size: 42px;
+  }
+  
+  .section-title {
+    font-size: 32px;
+  }
+  
+  .py-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .hero-section {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+  
+  /* Navbar Mobile Layout */
+  .navbar-custom {
+    background-color: rgba(250, 250, 248, 0.98) !important;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.75rem 0;
+  }
+  
+  .navbar-collapse {
+    background-color: var(--bg-primary);
+    border-top: 1px solid var(--border-color);
+    margin-top: 0.75rem;
+    padding: 1.5rem 0.5rem;
+    border-radius: 0 0 12px 12px;
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .nav-link-custom {
+    padding: 0.75rem 1rem !important;
+    font-size: 16px;
+  }
+  
+  .nav-link-custom::after {
+    left: 1rem;
+    right: auto;
+    width: 20px;
+  }
+  
+  .navbar-nav {
+    gap: 0.5rem;
+  }
+  
+  .navbar-resume-btn-container {
+    padding: 1rem 1rem 0 1rem;
+  }
+  
+  .navbar-resume-btn-container .btn-custom {
+    width: 100%;
+  }
+  
+  /* Hero Illustration spacing */
+  .hero-illustration-container {
+    min-height: 320px;
+    margin-top: 3rem;
+  }
+  
+  /* Project Cards padding reduction */
+  .project-card {
+    padding: 2rem;
+  }
+}
+
+/* ==========================================================================
+   Breakpoint: Small Mobile Screens & Down (< 768px)
+   ========================================================================== */
+@media (max-width: 767.98px) {
+  .hero-title {
+    font-size: 36px;
+  }
+  
+  .hero-tagline {
+    font-size: 18px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .py-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  /* Project Header layout adjustment */
+  .project-header {
+    margin-bottom: 1rem;
+  }
+  
+  .project-title {
+    font-size: 22px;
+  }
+  
+  /* Experience timeline space reduction */
+  .experience-timeline {
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  .timeline-dot {
+    left: -1.5rem;
+  }
+  
+  .timeline-role {
+    font-size: 18px;
+  }
+}
+
+/* ==========================================================================
+   Breakpoint: Very Small Screens & Down (< 576px)
+   ========================================================================== */
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 32px;
+  }
+  
+  .hero-desc {
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Make all main buttons full width on small devices */
+  .btn-custom {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .social-links {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .card-custom {
+    padding: 1.5rem;
+  }
+  
+  .terminal-body {
+    font-size: 13px;
+    padding: 1rem;
+    min-height: auto;
+  }
+  
+  .spotlight-card {
+    padding: 1.5rem;
+  }
+  
+  .spotlight-card::before {
+    display: none; /* Hide rotated label to save space and prevent breaks */
+  }
+  
+  .project-card {
+    padding: 1.5rem;
+  }
+  
+  .project-footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .project-footer .btn-custom {
+    margin-bottom: 0;
+  }
+}
