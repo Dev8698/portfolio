@@ -453,7 +453,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
   font-size: 15px;
   color: #E2E8F0;
-  min-height: 260px;
+  height: 270px;
+  overflow-y: auto;
   text-align: left;
 }
 

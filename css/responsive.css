@@ -182,7 +182,8 @@
   .terminal-body {
     font-size: 13px;
     padding: 1rem;
-    min-height: auto;
+    height: 240px;
+    overflow-y: auto;
   }
   
   .spotlight-card {
