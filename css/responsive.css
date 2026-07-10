@@ -62,6 +62,8 @@
     padding: 1.5rem 0.5rem;
     border-radius: 0 0 12px 12px;
     box-shadow: var(--shadow-lg);
+    flex-basis: 100%;
+    width: 100%;
   }
   
   .nav-link-custom {
